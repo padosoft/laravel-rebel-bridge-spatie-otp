@@ -1,0 +1,27 @@
+{
+    "name": "padosoft/laravel-rebel-bridge-spatie-otp",
+    "description": "Bridge to spatie/laravel-one-time-passwords for Laravel Rebel.",
+    "keywords": ["laravel", "authentication", "padosoft", "rebel"],
+    "homepage": "https://github.com/padosoft/laravel-rebel-bridge-spatie-otp",
+    "license": "MIT",
+    "authors": [ { "name": "Padosoft", "email": "support@padosoft.com", "homepage": "https://www.padosoft.com" } ],
+    "require": {
+        "php": "^8.3",
+        "illuminate/contracts": "^12.0|^13.0",
+        "illuminate/support": "^12.0|^13.0",
+        "spatie/laravel-package-tools": "^1.92"
+    },
+    "require-dev": {
+        "larastan/larastan": "^3.0",
+        "laravel/pint": "^1.18",
+        "orchestra/testbench": "^10.0|^11.0",
+        "pestphp/pest": "^4.0",
+        "pestphp/pest-plugin-laravel": "^4.0"
+    },
+    "autoload": { "psr-4": { "Padosoft\\Rebel\\Bridge\\SpatieOtp\\": "src/" } },
+    "autoload-dev": { "psr-4": { "Padosoft\\Rebel\\Bridge\\SpatieOtp\\Tests\\": "tests/" } },
+    "extra": { "laravel": { "providers": [ "Padosoft\\Rebel\\Bridge\\SpatieOtp\\RebelSpatieOtpBridgeServiceProvider" ] } },
+    "config": { "sort-packages": true, "allow-plugins": { "pestphp/pest-plugin": true, "phpstan/extension-installer": true } },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
