@@ -12,8 +12,8 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - { php: '8.3', laravel: '12.*' }
-          - { php: '8.3', laravel: '13.*' }
+          # spatie/laravel-one-time-passwords ^1.0 requires PHP ^8.4, so tests start at 8.4.
+          # The package source itself supports ^8.3; CI confirms 8.4+ since spatie is in require-dev.
           - { php: '8.4', laravel: '12.*' }
           - { php: '8.4', laravel: '13.*' }
           - { php: '8.5', laravel: '12.*' }
