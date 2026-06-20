@@ -1,3 +1,5 @@
+> Official documentation: https://doc.laravel-rebel.padosoft.com
+
 <img src="resources/screenshoots/Laravel-Rebel-banner.png" alt="Laravel Rebel" width="100%" />
 
 # laravel-rebel-bridge-spatie-otp
@@ -289,3 +291,4 @@ This package ships everything you need to start building immediately:
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
